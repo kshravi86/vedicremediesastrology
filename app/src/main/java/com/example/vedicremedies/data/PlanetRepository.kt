@@ -19,6 +19,17 @@ data class PlanetRemedy(
     val sanskritName: String,
     val archetype: String,
     val attributes: List<String>,
+    val vedaVyasaMantra: String,
+    val beejMantra: String,
+    val element: String,
+    val day: String,
+    val gemstone: String,
+    val metal: String,
+    val color: String,
+    val positiveTraits: List<String>,
+    val challenges: List<String>,
+    val rulingDeity: String,
+    val yogas: List<String>,
     val afflictions: List<Affliction>
 )
 
@@ -34,6 +45,34 @@ object PlanetRepository {
                 "Represents the atman (soul) and life force",
                 "Rules leadership, confidence, father energy",
                 "Karaka for health, eyesight, career status"
+            ),
+            vedaVyasaMantra = "नमो भास्कराय च विवस्वते च नमो दिवाकराय च प्रभाकराय च। नमो आदित्याय च सवित्रे च नमो रवये च तेजसे च।",
+            beejMantra = "ॐ ह्राम् ह्रीम् ह्राम् सह सूर्याय नमः",
+            element = "Fire (Agni)",
+            day = "Sunday (Ravivar)",
+            gemstone = "Ruby (Manikya), Red Coral",
+            metal = "Gold (Swarna)",
+            color = "Orange, Red, Golden Yellow",
+            positiveTraits = listOf(
+                "Natural leadership and authority",
+                "Strong willpower and determination", 
+                "Generous and magnanimous nature",
+                "Good health and vitality",
+                "Fame and recognition",
+                "Strong connection with father"
+            ),
+            challenges = listOf(
+                "Ego and pride issues",
+                "Arrogance and dominating nature",
+                "Heart and eye related problems",
+                "Conflicts with authority figures",
+                "Excessive anger and aggression"
+            ),
+            rulingDeity = "Surya Bhagavan, Aditya",
+            yogas = listOf(
+                "Budhaditya Yoga (with Mercury)",
+                "Nipuna Yoga (when exalted)",
+                "Ravi Yoga (strong placement)"
             ),
             afflictions = listOf(
                 Affliction(
@@ -104,6 +143,34 @@ object PlanetRepository {
                 "Controls emotional resilience and intuition",
                 "Signals maternal bonds and mental peace",
                 "Influences fluids, sleep, and memory"
+            ),
+            vedaVyasaMantra = "नमो दध्ने च शुभ्राय च नमो सोमाय च सुषोमाय च। नमो हिमाय च कुमुदाय च नमो चन्द्राय च पद्मधराय च।",
+            beejMantra = "ॐ श्राम् श्रीम् श्राम् सह चन्द्राय नमः",
+            element = "Water (Jal)",
+            day = "Monday (Somvar)",
+            gemstone = "Pearl (Moti), Moonstone",
+            metal = "Silver (Rajat)",
+            color = "White, Silver, Cream",
+            positiveTraits = listOf(
+                "Emotional intelligence and empathy",
+                "Strong intuition and psychic abilities",
+                "Nurturing and caring nature",
+                "Good memory and imagination",
+                "Peaceful and harmonious disposition",
+                "Strong connection with mother"
+            ),
+            challenges = listOf(
+                "Emotional instability and mood swings",
+                "Over-sensitivity and vulnerability",
+                "Mental anxiety and depression",
+                "Digestive and water retention issues",
+                "Dependency and clingy behavior"
+            ),
+            rulingDeity = "Chandra Deva, Soma",
+            yogas = listOf(
+                "Gaja Kesari Yoga (with Jupiter)",
+                "Chandra Mangal Yoga (with Mars)",
+                "Sunapha Yoga (planets before Moon)"
             ),
             afflictions = listOf(
                 Affliction(
@@ -176,6 +243,35 @@ object PlanetRepository {
                 "Governs blood, muscles, and siblings",
                 "Promotes strategic action when balanced"
             ),
+            vedaVyasaMantra = "नमो अङ्गारकाय च भौमाय च नमो क्षितिजाय च कुजाय च। नमो भूमिपुत्राय च मंगलाय च नमो महीजाय च रक्तांगाय च।",
+            beejMantra = "ॐ क्राम् क्रीम् क्राम् सह भौमाय नमः",
+            element = "Fire (Agni)",
+            day = "Tuesday (Mangalvar)",
+            gemstone = "Red Coral (Moonga), Carnelian",
+            metal = "Copper (Tamra)",
+            color = "Red, Orange, Scarlet",
+            positiveTraits = listOf(
+                "Courage and fearlessness",
+                "Physical strength and energy",
+                "Leadership in battle and competition",
+                "Protective nature towards family",
+                "Goal-oriented and determined",
+                "Technical and mechanical skills"
+            ),
+            challenges = listOf(
+                "Excessive anger and aggression",
+                "Impatience and impulsiveness",
+                "Conflicts and arguments",
+                "Accidents and injuries",
+                "Blood-related disorders",
+                "Marital discord (Mangal Dosha)"
+            ),
+            rulingDeity = "Bhaumya, Angaraka, Kuja",
+            yogas = listOf(
+                "Ruchaka Yoga (exalted placement)",
+                "Chandra Mangal Yoga (with Moon)",
+                "Parivartana Yoga (exchange with other planets)"
+            ),
             afflictions = listOf(
                 Affliction(
                     title = "Kuja Dosha",
@@ -245,6 +341,35 @@ object PlanetRepository {
                 "Regulates nervous system and speech",
                 "Supports analytics, negotiation, entrepreneurship",
                 "Karaka for education and adaptability"
+            ),
+            vedaVyasaMantra = "नमो रोहिणीसुताय च सुधांशवे च नमो शुभङ्कराय च शुभप्रदाय च। नमो ज्ञानदाय च सुधाकराय च नमो बुधाय च चन्द्रसुताय च।",
+            beejMantra = "ॐ ब्राम् ब्रीम् ब्राम् सह बुधाय नमः",
+            element = "Earth (Prithvi)",
+            day = "Wednesday (Budhvar)",
+            gemstone = "Emerald (Panna), Green Tourmaline",
+            metal = "Bronze, Brass",
+            color = "Green, Yellow-Green",
+            positiveTraits = listOf(
+                "Excellent communication skills",
+                "Sharp intellect and analytical mind",
+                "Business acumen and trading skills",
+                "Adaptability and versatility",
+                "Good memory and learning ability",
+                "Mathematical and logical thinking"
+            ),
+            challenges = listOf(
+                "Nervous anxiety and mental stress",
+                "Speech disorders or communication issues",
+                "Skin problems and allergies",
+                "Restlessness and hyperactivity",
+                "Scattered thoughts and lack of focus",
+                "Respiratory problems"
+            ),
+            rulingDeity = "Budha, Vishnu",
+            yogas = listOf(
+                "Budhaditya Yoga (with Sun)",
+                "Bhadra Yoga (exalted placement)",
+                "Kahala Yoga (benefic aspect)"
             ),
             afflictions = listOf(
                 Affliction(
@@ -316,6 +441,35 @@ object PlanetRepository {
                 "Guides wealth, progeny, optimism",
                 "Rules liver, endocrine system, knowledge"
             ),
+            vedaVyasaMantra = "नमो बृहस्पतये च अङ्गिरसे च नमो देवगुरवे च देवकराय च। नमो गुरवे च गुरुतमाय च नमो जीवाय च सुरवन्द्याय च।",
+            beejMantra = "ॐ ग्राम् ग्रीम् ग्राम् सह गुरवे नमः",
+            element = "Ether (Akash)",
+            day = "Thursday (Guruvaar)",
+            gemstone = "Yellow Sapphire (Pukhraj), Topaz",
+            metal = "Gold (Swarna)",
+            color = "Yellow, Golden, Orange",
+            positiveTraits = listOf(
+                "Wisdom and knowledge",
+                "Spiritual inclination and dharma",
+                "Good teaching and advisory abilities",
+                "Prosperity and abundance",
+                "Optimism and positive outlook",
+                "Good children and family life"
+            ),
+            challenges = listOf(
+                "Over-indulgence and excess",
+                "Stubbornness and dogmatic behavior",
+                "Liver and weight-related issues",
+                "Financial over-extension",
+                "False wisdom or misguided beliefs",
+                "Procrastination and laziness"
+            ),
+            rulingDeity = "Brihaspati, Guru",
+            yogas = listOf(
+                "Hamsa Yoga (exalted placement)",
+                "Gaja Kesari Yoga (with Moon)",
+                "Dharma Karmadhipati Yoga"
+            ),
             afflictions = listOf(
                 Affliction(
                     title = "Debilitated in Capricorn",
@@ -385,6 +539,35 @@ object PlanetRepository {
                 "Symbolizes relationships, creativity, refinement",
                 "Controls reproductive health and kidneys",
                 "Guides luxury, harmony, and aesthetics"
+            ),
+            vedaVyasaMantra = "नमो शुक्राय च शुक्रतेजसे च नमो भार्गवाय च भृगवे च। नमो दैत्यगुरवे च कवये च नमो शुक्राचार्याय च काव्याय च।",
+            beejMantra = "ॐ द्राम् द्रीम् द्राम् सह शुक्राय नमः",
+            element = "Water (Jal)",
+            day = "Friday (Shukravar)",
+            gemstone = "Diamond (Heera), White Sapphire",
+            metal = "Silver (Rajat)",
+            color = "White, Pink, Light Blue",
+            positiveTraits = listOf(
+                "Love and harmonious relationships",
+                "Artistic and creative abilities",
+                "Beauty and aesthetic sense",
+                "Material comforts and luxury",
+                "Diplomatic and social skills",
+                "Good reproductive health"
+            ),
+            challenges = listOf(
+                "Over-indulgence in pleasures",
+                "Relationship conflicts and infidelity",
+                "Kidney and reproductive issues",
+                "Vanity and superficiality",
+                "Attachment to material possessions",
+                "Sexual misconduct"
+            ),
+            rulingDeity = "Shukracharya, Lakshmi",
+            yogas = listOf(
+                "Malavya Yoga (exalted placement)",
+                "Ubhayachari Yoga (planets on both sides)",
+                "Raj Yoga (with benefics)"
             ),
             afflictions = listOf(
                 Affliction(
@@ -456,6 +639,35 @@ object PlanetRepository {
                 "Controls bones, teeth, nervous system",
                 "Signals karmic debts and structured service"
             ),
+            vedaVyasaMantra = "नमो शनैश्चराय च कृष्णाय च नमो रौद्राय च रुद्रान्तकाय च। नमो यमाय च यमराजाय च नमो मन्दाय च मन्दचेताय च।",
+            beejMantra = "ॐ प्राम् प्रीम् प्राम् सह शनैश्चराय नमः",
+            element = "Air (Vayu)",
+            day = "Saturday (Shanivar)",
+            gemstone = "Blue Sapphire (Neelam), Amethyst",
+            metal = "Iron (Loha)",
+            color = "Black, Dark Blue, Violet",
+            positiveTraits = listOf(
+                "Discipline and patience",
+                "Hard work and perseverance",
+                "Justice and fairness",
+                "Spiritual maturity",
+                "Long-term success and stability",
+                "Service to society"
+            ),
+            challenges = listOf(
+                "Delays and obstacles",
+                "Depression and pessimism",
+                "Bone and joint problems",
+                "Poverty and hardships",
+                "Loneliness and isolation",
+                "Chronic diseases"
+            ),
+            rulingDeity = "Shani Bhagavan, Yama",
+            yogas = listOf(
+                "Shasha Yoga (exalted placement)",
+                "Vipareeta Raja Yoga (benefic in dusthana)",
+                "Kapata Yoga (with malefics)"
+            ),
             afflictions = listOf(
                 Affliction(
                     title = "Sade Sati",
@@ -526,6 +738,35 @@ object PlanetRepository {
                 "Rules foreign connections, technology, expansion",
                 "Triggers karmic acceleration and illusion"
             ),
+            vedaVyasaMantra = "नमो राहवे च स्वर्भानवे च नमो नागाय च नागराजाय च। नमो तमसे च तामसाय च नमो सिंहिकासुताय च असुराय च।",
+            beejMantra = "ॐ भ्राम् भ्रीम् भ्राम् सह राहवे नमः",
+            element = "Air (Vayu)",
+            day = "Saturday (with Saturn)",
+            gemstone = "Hessonite (Gomed), Smoky Quartz",
+            metal = "Lead, Mixed Metals",
+            color = "Smoky, Grey, Multicolored",
+            positiveTraits = listOf(
+                "Innovation and unconventional thinking",
+                "Foreign connections and travel",
+                "Technological advancement",
+                "Sudden gains and opportunities",
+                "Breaking social barriers",
+                "Psychic and mystical abilities"
+            ),
+            challenges = listOf(
+                "Obsession and addiction",
+                "Illusion and deception",
+                "Sudden losses and instability",
+                "Mental confusion and anxiety",
+                "Poison-related issues",
+                "Social outcasting"
+            ),
+            rulingDeity = "Durga, Kali",
+            yogas = listOf(
+                "Sarpa Yoga (with other planets)",
+                "Kalasarpa Yoga (all planets between Rahu-Ketu)",
+                "Grahan Yoga (with Sun/Moon)"
+            ),
             afflictions = listOf(
                 Affliction(
                     title = "Rahu in the 8th house",
@@ -595,6 +836,35 @@ object PlanetRepository {
                 "Shadow planet dissolving ego attachments",
                 "Governs mysticism, moksha, sudden awakenings",
                 "Associated with immune system and past-life karmas"
+            ),
+            vedaVyasaMantra = "नमो केतवे च ध्वजाय च नमो ध्वजकेतवे च सिंहिकासुताय च। नमो ग्रहराजाय च राहोः पुच्छाय च नमो मोक्षकराय च मुक्तिदाय च।",
+            beejMantra = "ॐ स्राम् स्रीम् स्राम् सह केतवे नमः",
+            element = "Fire (Agni)",
+            day = "Tuesday (with Mars)",
+            gemstone = "Cat's Eye (Lahsuniya), Tiger's Eye",
+            metal = "Iron, Mixed Metals",
+            color = "Brown, Grey, Variegated",
+            positiveTraits = listOf(
+                "Spiritual wisdom and detachment",
+                "Intuitive and psychic abilities",
+                "Moksha and liberation seeking",
+                "Healing and medical knowledge",
+                "Past-life memories and insights",
+                "Occult and mystical powers"
+            ),
+            challenges = listOf(
+                "Confusion and lack of direction",
+                "Sudden losses and separations",
+                "Health issues and infections",
+                "Mental instability",
+                "Isolation and withdrawal",
+                "Spiritual ego and fanaticism"
+            ),
+            rulingDeity = "Ganesha, Matsya Avatar",
+            yogas = listOf(
+                "Kalasarpa Yoga (with Rahu)",
+                "Moksha Trikona positioning",
+                "Spiritual Raja Yoga"
             ),
             afflictions = listOf(
                 Affliction(

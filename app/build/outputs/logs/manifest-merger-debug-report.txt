@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:1:1-23:12
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:1:1-23:12
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:1:1-23:12
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:1:1-23:12
+ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:1:1-23:12
 MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\Admin\.gradle\caches\transforms-4\f3e80ebe48a3555bee5a8a6011c74973\transformed\material3-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\3831fc9f4e6066492a134a2adfb63320\transformed\material-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\b70cd4bd4b2dda9a7cc97f2e8f48f5fb\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
@@ -50,16 +50,16 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Admin\.gradle\caches\transforms-4\576b90db46da3d3d767898ce3c7b3364\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-4\279d6330c1f48873a7afdd95709d8ed6\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:3:5-21:19
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:3:5-21:19
+ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:3:5-21:19
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:3:5-21:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\26461f99387dcf82c9b2d96375d0a2f2\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\26461f99387dcf82c9b2d96375d0a2f2\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\1e2d608b8a1404a2ae4dfe9ce9a07d32\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:22:5-26:19
@@ -77,45 +77,45 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\caches\transforms-4\686bec39ef235bf10cd0837671a7576d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\caches\transforms-4\686bec39ef235bf10cd0837671a7576d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Admin\.gradle\caches\transforms-4\34b6ed2fcf75f3f7c0fc36628df2cd4b\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:8:9-35
 	android:label
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:6:9-41
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:6:9-41
 	android:roundIcon
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:7:9-61
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:7:9-61
 	android:icon
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:5:9-56
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:5:9-56
 	android:allowBackup
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:4:9-35
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:4:9-35
 	android:theme
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:9:9-51
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:9:9-51
 activity#com.example.vedicremedies.MainActivity
-ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:10:9-20:20
+ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:10:9-20:20
 	android:screenOrientation
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:13:13-49
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:13:13-49
 	android:exported
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:12:13-36
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:12:13-36
 	android:theme
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:14:13-55
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:14:13-55
 	android:name
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:11:13-41
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:11:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml:18:27-74
 uses-sdk
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\Admin\.gradle\caches\transforms-4\f3e80ebe48a3555bee5a8a6011c74973\transformed\material3-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\Admin\.gradle\caches\transforms-4\f3e80ebe48a3555bee5a8a6011c74973\transformed\material3-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-android:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\3831fc9f4e6066492a134a2adfb63320\transformed\material-release\AndroidManifest.xml:5:5-44
@@ -207,9 +207,9 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Admin\.gradle\caches\trans
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-4\279d6330c1f48873a7afdd95709d8ed6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-4\279d6330c1f48873a7afdd95709d8ed6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Admin\Downloads\iphoneapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Admin\.gradle\caches\transforms-4\26461f99387dcf82c9b2d96375d0a2f2\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported

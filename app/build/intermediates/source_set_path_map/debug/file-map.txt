@@ -39,9 +39,9 @@ com.example.vedicremedies.app-ui-unit-release-37 C:\Users\Admin\.gradle\caches\t
 com.example.vedicremedies.app-lifecycle-process-2.6.1-38 C:\Users\Admin\.gradle\caches\transforms-4\f0eddcb07c849d5eb49d80711aa5a95d\transformed\lifecycle-process-2.6.1\res
 com.example.vedicremedies.app-lifecycle-runtime-ktx-2.6.1-39 C:\Users\Admin\.gradle\caches\transforms-4\f243e45dba882b2ecb21d893715f7ed0\transformed\lifecycle-runtime-ktx-2.6.1\res
 com.example.vedicremedies.app-material3-release-40 C:\Users\Admin\.gradle\caches\transforms-4\f3e80ebe48a3555bee5a8a6011c74973\transformed\material3-release\res
-com.example.vedicremedies.app-resValues-41 C:\Users\Admin\Downloads\iphoneapp\app\build\generated\res\resValues\debug
-com.example.vedicremedies.app-packageDebugResources-42 C:\Users\Admin\Downloads\iphoneapp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.vedicremedies.app-packageDebugResources-43 C:\Users\Admin\Downloads\iphoneapp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.vedicremedies.app-merged_res-44 C:\Users\Admin\Downloads\iphoneapp\app\build\intermediates\merged_res\debug
-com.example.vedicremedies.app-debug-45 C:\Users\Admin\Downloads\iphoneapp\app\src\debug\res
-com.example.vedicremedies.app-main-46 C:\Users\Admin\Downloads\iphoneapp\app\src\main\res
+com.example.vedicremedies.app-resValues-41 C:\Users\Admin\Downloads\vedicremediesastrology\app\build\generated\res\resValues\debug
+com.example.vedicremedies.app-packageDebugResources-42 C:\Users\Admin\Downloads\vedicremediesastrology\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.vedicremedies.app-packageDebugResources-43 C:\Users\Admin\Downloads\vedicremediesastrology\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.vedicremedies.app-merged_res-44 C:\Users\Admin\Downloads\vedicremediesastrology\app\build\intermediates\merged_res\debug
+com.example.vedicremedies.app-debug-45 C:\Users\Admin\Downloads\vedicremediesastrology\app\src\debug\res
+com.example.vedicremedies.app-main-46 C:\Users\Admin\Downloads\vedicremediesastrology\app\src\main\res

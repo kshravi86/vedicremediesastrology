@@ -511,6 +511,11 @@ private fun PlanetDetailScreen(
                     fontWeight = FontWeight.Bold
                 )
             }
+            item {
+                if (planet.challenges.isNotEmpty()) {
+                    ChallengesSection(challenges = planet.challenges)
+                }
+            }
             items(planet.afflictions) { affliction ->
                 AfflictionCard(
                     affliction = affliction,
@@ -548,7 +553,7 @@ private fun PlanetHeroSection(planet: PlanetRemedy) {
                         )
                     }
                 }
-                Spacer(modifier = Modifier.size(16.dp))
+                Spacer(modifier = Modifier.width(16.dp))
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
                         text = "${planet.name} - ${planet.sanskritName}",
@@ -559,27 +564,103 @@ private fun PlanetHeroSection(planet: PlanetRemedy) {
                         text = planet.archetype,
                         style = MaterialTheme.typography.bodyLarge
                     )
+                    Text(
+                        text = "Ruling Deity: ${planet.rulingDeity}",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.8f)
+                    )
                 }
             }
 
-            Spacer(modifier = Modifier.size(16.dp))
+            Spacer(modifier = Modifier.height(16.dp))
+            
+            // Mantras Section - Always visible
             Text(
-                text = "Key Gifts",
+                text = "Sacred Mantras",
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.SemiBold
+            )
+            Spacer(modifier = Modifier.height(6.dp))
+            
+            Card(
+                shape = RoundedCornerShape(12.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surface,
+                )
+            ) {
+                Column(modifier = Modifier.padding(16.dp)) {
+                    Text(
+                        text = "Veda Vyasa Mantra",
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.Medium
+                    )
+                    Text(
+                        text = planet.vedaVyasaMantra,
+                        style = MaterialTheme.typography.bodyMedium,
+                        modifier = Modifier.padding(top = 4.dp)
+                    )
+                    Spacer(modifier = Modifier.height(12.dp))
+                    Text(
+                        text = "Beej Mantra",
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.Medium
+                    )
+                    Text(
+                        text = planet.beejMantra,
+                        style = MaterialTheme.typography.bodyMedium,
+                        modifier = Modifier.padding(top = 4.dp)
+                    )
+                }
+            }
+            
+            Spacer(modifier = Modifier.height(12.dp))
+            
+            // Gemstone and Metal info - Always visible
+            Row {
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = "Gemstone",
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.Medium
+                    )
+                    Text(
+                        text = planet.gemstone,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = "Metal",
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.Medium
+                    )
+                    Text(
+                        text = planet.metal,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+            }
+            
+            Spacer(modifier = Modifier.height(12.dp))
+            
+            // Positive Traits - Always visible
+            Text(
+                text = "Positive Traits",
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.SemiBold
             )
             FlowRow(
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp),
-                modifier = Modifier.padding(top = 12.dp)
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.padding(top = 8.dp)
             ) {
-                planet.attributes.forEach { attribute ->
+                planet.positiveTraits.forEach { trait ->
                     AssistChip(
                         onClick = {},
-                        label = { Text(text = attribute) },
+                        label = { Text(text = trait) },
                         leadingIcon = {
                             Icon(
-                                imageVector = Icons.Outlined.Star,
+                                imageVector = Icons.Outlined.CheckCircle,
                                 contentDescription = null,
                                 modifier = Modifier.size(16.dp)
                             )
@@ -591,9 +672,111 @@ private fun PlanetHeroSection(planet: PlanetRemedy) {
                     )
                 }
             }
+            
+            Spacer(modifier = Modifier.height(12.dp))
+            
+            // Yogas - Always visible
+            if (planet.yogas.isNotEmpty()) {
+                Text(
+                    text = "Important Yogas",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.SemiBold
+                )
+                Column(
+                    modifier = Modifier.padding(top = 8.dp),
+                    verticalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    planet.yogas.forEach { yoga ->
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Icon(
+                                imageVector = Icons.Outlined.Star,
+                                contentDescription = null,
+                                modifier = Modifier.size(16.dp),
+                                tint = MaterialTheme.colorScheme.primary
+                            )
+                            Text(
+                                text = yoga,
+                                style = MaterialTheme.typography.bodyMedium,
+                                modifier = Modifier.padding(start = 8.dp)
+                            )
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
+@Composable
+private fun InfoChip(
+    label: String,
+    icon: androidx.compose.ui.graphics.vector.ImageVector
+) {
+    AssistChip(
+        onClick = {},
+        label = { Text(text = label, style = MaterialTheme.typography.labelSmall) },
+        leadingIcon = {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                modifier = Modifier.size(14.dp)
+            )
+        },
+        colors = AssistChipDefaults.assistChipColors(
+            containerColor = MaterialTheme.colorScheme.surface,
+            labelColor = MaterialTheme.colorScheme.onSurface
+        )
+    )
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ChallengesSection(challenges: List<String>) {
+    ElevatedCard(
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.elevatedCardColors(
+            containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.7f),
+            contentColor = MaterialTheme.colorScheme.onErrorContainer
+        )
+    ) {
+        Column(modifier = Modifier.padding(20.dp)) {
+            Text(
+                text = "Potential Challenges",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold
+            )
+            Text(
+                text = "Areas that may need attention when this planet is weak or afflicted",
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.padding(top = 4.dp, bottom = 12.dp)
+            )
+            
+            FlowRow(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                challenges.forEach { challenge ->
+                    AssistChip(
+                        onClick = {},
+                        label = { Text(text = challenge) },
+                        leadingIcon = {
+                            Icon(
+                                imageVector = Icons.Outlined.Clear,
+                                contentDescription = null,
+                                modifier = Modifier.size(16.dp)
+                            )
+                        },
+                        colors = AssistChipDefaults.assistChipColors(
+                            containerColor = MaterialTheme.colorScheme.surface,
+                            labelColor = MaterialTheme.colorScheme.onSurface
+                        )
+                    )
+                }
+            }
+        }
+    }
+}
+
 @Composable
 private fun AfflictionCard(
     affliction: Affliction,

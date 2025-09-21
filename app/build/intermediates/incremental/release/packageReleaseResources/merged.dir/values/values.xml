@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Vedic Remedies</string>
-    <style name="Theme.VedicRemedies" parent="android:Theme.Material.Light.NoActionBar"/>
-</resources>

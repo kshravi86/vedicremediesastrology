@@ -5583,6 +5583,23 @@
             "outputFile": "com.example.vedicremedies.app-merged_res-45:/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Admin\\Downloads\\vedicremediesastrology\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
+                    },
+                    "to": {
+                        "startLines": "99",
+                        "startColumns": "4",
+                        "startOffsets": "6020",
+                        "endColumns": "51",
+                        "endOffsets": "6067"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\686bec39ef235bf10cd0837671a7576d\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -5653,7 +5670,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\iphoneapp\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\Admin\\Downloads\\vedicremediesastrology\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -5703,23 +5720,6 @@
                         "startOffsets": "11986,12042",
                         "endColumns": "55,54",
                         "endOffsets": "12037,12092"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\Downloads\\iphoneapp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
-                    },
-                    "to": {
-                        "startLines": "99",
-                        "startColumns": "4",
-                        "startOffsets": "6020",
-                        "endColumns": "51",
-                        "endOffsets": "6067"
                     }
                 },
                 {
@@ -6455,7 +6455,7 @@
             "outputFile": "com.example.vedicremedies.app-merged_res-45:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\Downloads\\iphoneapp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Admin\\Downloads\\vedicremediesastrology\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
