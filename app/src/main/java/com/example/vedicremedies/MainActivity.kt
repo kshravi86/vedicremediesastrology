@@ -361,7 +361,7 @@ private fun PlanetDrawerContent(
     Column(
         modifier = Modifier
             .padding(horizontal = 12.dp)
-            .padding(top = 32.dp, bottom = 16.dp)
+            .padding(top = 80.dp, bottom = 16.dp)
             .animateContentSize(),
         verticalArrangement = Arrangement.spacedBy(4.dp)
     ) {
@@ -446,7 +446,7 @@ private fun PlanetNavigationRail(
         containerColor = MaterialTheme.colorScheme.surfaceVariant
     ) {
         Column(
-            modifier = Modifier.padding(vertical = 24.dp),
+            modifier = Modifier.padding(top = 80.dp, bottom = 24.dp),
             verticalArrangement = Arrangement.spacedBy(4.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {

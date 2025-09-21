@@ -46,7 +46,7 @@ object PlanetRepository {
                 "Rules leadership, confidence, father energy",
                 "Karaka for health, eyesight, career status"
             ),
-            vedaVyasaMantra = "नमो भास्कराय च विवस्वते च नमो दिवाकराय च प्रभाकराय च। नमो आदित्याय च सवित्रे च नमो रवये च तेजसे च।",
+            vedaVyasaMantra = "Japaa kusuma sankaasham kaashyapeyam mahaadyutim |\nTamorim sarva paapaghnam pranato'smi divaakaram ||",
             beejMantra = "ॐ ह्राम् ह्रीम् ह्राम् सह सूर्याय नमः",
             element = "Fire (Agni)",
             day = "Sunday (Ravivar)",
@@ -144,7 +144,7 @@ object PlanetRepository {
                 "Signals maternal bonds and mental peace",
                 "Influences fluids, sleep, and memory"
             ),
-            vedaVyasaMantra = "नमो दध्ने च शुभ्राय च नमो सोमाय च सुषोमाय च। नमो हिमाय च कुमुदाय च नमो चन्द्राय च पद्मधराय च।",
+            vedaVyasaMantra = "Dadhi shankha tushaaraabham ksheerodaarnava sambhavam |\nNamaami shashinam somam shambhor mukuta bhooshanam ||",
             beejMantra = "ॐ श्राम् श्रीम् श्राम् सह चन्द्राय नमः",
             element = "Water (Jal)",
             day = "Monday (Somvar)",
@@ -243,7 +243,7 @@ object PlanetRepository {
                 "Governs blood, muscles, and siblings",
                 "Promotes strategic action when balanced"
             ),
-            vedaVyasaMantra = "नमो अङ्गारकाय च भौमाय च नमो क्षितिजाय च कुजाय च। नमो भूमिपुत्राय च मंगलाय च नमो महीजाय च रक्तांगाय च।",
+            vedaVyasaMantra = "Dharanee garbha sambhootam vidyut kaanti samaprabham |\nKumaaram shakti hastam tam mangalam pranamaamyaham ||",
             beejMantra = "ॐ क्राम् क्रीम् क्राम् सह भौमाय नमः",
             element = "Fire (Agni)",
             day = "Tuesday (Mangalvar)",
@@ -342,7 +342,7 @@ object PlanetRepository {
                 "Supports analytics, negotiation, entrepreneurship",
                 "Karaka for education and adaptability"
             ),
-            vedaVyasaMantra = "नमो रोहिणीसुताय च सुधांशवे च नमो शुभङ्कराय च शुभप्रदाय च। नमो ज्ञानदाय च सुधाकराय च नमो बुधाय च चन्द्रसुताय च।",
+            vedaVyasaMantra = "Priyangu kalikaa shyaamam roopenaa pratimam budham |\nSaumyam saumya gunopetam tam budham pranamaamyaham ||",
             beejMantra = "ॐ ब्राम् ब्रीम् ब्राम् सह बुधाय नमः",
             element = "Earth (Prithvi)",
             day = "Wednesday (Budhvar)",
@@ -441,7 +441,7 @@ object PlanetRepository {
                 "Guides wealth, progeny, optimism",
                 "Rules liver, endocrine system, knowledge"
             ),
-            vedaVyasaMantra = "नमो बृहस्पतये च अङ्गिरसे च नमो देवगुरवे च देवकराय च। नमो गुरवे च गुरुतमाय च नमो जीवाय च सुरवन्द्याय च।",
+            vedaVyasaMantra = "Devaanaam cha risheenaam cha gurum kaanchana sannibham |\nBuddhi bhootam trilokesham tam namaami brihaspatim ||",
             beejMantra = "ॐ ग्राम् ग्रीम् ग्राम् सह गुरवे नमः",
             element = "Ether (Akash)",
             day = "Thursday (Guruvaar)",
@@ -540,7 +540,7 @@ object PlanetRepository {
                 "Controls reproductive health and kidneys",
                 "Guides luxury, harmony, and aesthetics"
             ),
-            vedaVyasaMantra = "नमो शुक्राय च शुक्रतेजसे च नमो भार्गवाय च भृगवे च। नमो दैत्यगुरवे च कवये च नमो शुक्राचार्याय च काव्याय च।",
+            vedaVyasaMantra = "Hima kunda mrinaalaabham daityaanaam paramam gurum |\nSarva shaastra pravaktaaram bhaargavam pranamaamyaham ||",
             beejMantra = "ॐ द्राम् द्रीम् द्राम् सह शुक्राय नमः",
             element = "Water (Jal)",
             day = "Friday (Shukravar)",
@@ -639,7 +639,7 @@ object PlanetRepository {
                 "Controls bones, teeth, nervous system",
                 "Signals karmic debts and structured service"
             ),
-            vedaVyasaMantra = "नमो शनैश्चराय च कृष्णाय च नमो रौद्राय च रुद्रान्तकाय च। नमो यमाय च यमराजाय च नमो मन्दाय च मन्दचेताय च।",
+            vedaVyasaMantra = "Neelaanjana samaabhaasam ravi putram yamaagrajam |\nChhaayaa maartanda sambhootam tam namaami shanaishcharam ||",
             beejMantra = "ॐ प्राम् प्रीम् प्राम् सह शनैश्चराय नमः",
             element = "Air (Vayu)",
             day = "Saturday (Shanivar)",
@@ -738,7 +738,7 @@ object PlanetRepository {
                 "Rules foreign connections, technology, expansion",
                 "Triggers karmic acceleration and illusion"
             ),
-            vedaVyasaMantra = "नमो राहवे च स्वर्भानवे च नमो नागाय च नागराजाय च। नमो तमसे च तामसाय च नमो सिंहिकासुताय च असुराय च।",
+            vedaVyasaMantra = "Ardha kaayam mahaa veeryam chandraaditya vimardanam |\nSimhikaa garbha sambhootam tam raahum pranamaamyaham ||",
             beejMantra = "ॐ भ्राम् भ्रीम् भ्राम् सह राहवे नमः",
             element = "Air (Vayu)",
             day = "Saturday (with Saturn)",
@@ -837,7 +837,7 @@ object PlanetRepository {
                 "Governs mysticism, moksha, sudden awakenings",
                 "Associated with immune system and past-life karmas"
             ),
-            vedaVyasaMantra = "नमो केतवे च ध्वजाय च नमो ध्वजकेतवे च सिंहिकासुताय च। नमो ग्रहराजाय च राहोः पुच्छाय च नमो मोक्षकराय च मुक्तिदाय च।",
+            vedaVyasaMantra = "Palaasha pushpa sankaasham taarakaa graha mastakam |\nRaudram raudraatmakam ghoram tam ketum pranamaamyaham ||",
             beejMantra = "ॐ स्राम् स्रीम् स्राम् सह केतवे नमः",
             element = "Fire (Agni)",
             day = "Tuesday (with Mars)",
